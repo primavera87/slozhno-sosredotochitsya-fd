@@ -37,7 +37,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-	:root.theme-dark {
+	:root {
 		--accent-color: rgba(255, 0, 112);
 		--accent-text: rgba(0, 0, 40);
 		--color-header: rgba(219, 0, 255);

@@ -38,8 +38,8 @@
 	position: absolute;
 	width: 25px;
 	height: 25px;
-	border-top: 1px solid var(--accent-color);
-	border-right: 1px solid var(--accent-color);
+	border-top: 1px solid var(--color-title);
+	border-right: 1px solid var(--color-title);
 	right: 10px;
 	top: 10px;
 }
@@ -50,8 +50,8 @@
 	position: absolute;
 	width: 25px;
 	height: 25px;
-	border-left: 1px solid var(--accent-color);
-	border-bottom: 1px solid var(--accent-color);
+	border-left: 1px solid var(--color-title);
+	border-bottom: 1px solid var(--color-title);
 	bottom: 10px;
 	left: 10px;
 }
@@ -99,7 +99,7 @@
 	padding-block-end: 5px;
 	padding-block-start: 3px;
 	border: 0;
-    color: var(--accent-color);
+    color: var(--color-title);
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
@@ -109,7 +109,7 @@
 
 .header__theme-menu-button_active {
 	pointer-events: none;
-	border: 1px solid var(--accent-color);
+	border: 1px solid var(--color-title);
 }
 
 .header__theme-menu-button:hover {
@@ -126,7 +126,7 @@
 }
 
 .header__title {
-	font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+	font-size: var(--logo-size);
 	color: var(--color-header, rgba(219, 0, 255, 1));
 	text-shadow: 4px 4px 0 var(--accent-color);
 	line-height: 95px;
@@ -167,6 +167,7 @@
 .consideration {
 	padding-block-start: 45px;
   	row-gap: 20px;
+
 }
 
 .concentration-advice {
@@ -214,6 +215,7 @@
 
 .concentration__item-subtitle {
 	color: var(--color-subtitle);
+	font-weight: 400;
 }
 
 .consideration__item {
@@ -230,10 +232,17 @@
 
 .consideration__item-title {
 	color: var(--color-content);
+	font-family: IBM Plex Mono;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 18px;
+	line-height: 23.4px;
+	letter-spacing: 0%;
 }
 
 .consideration__item-subtitle {
 	color: var(--color-subtitle);
+	font-weight: 400;
 }
 
 .concentration-advice__title {
@@ -412,6 +421,11 @@ img {
   .consideration__list {
 	gap: 20px;
 	padding-inline-end: 20px;
+	font-family: var(--font-family, monospace);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23.4px;
+	letter-spacing: 0%;
   }
 
   .consideration__title {
@@ -486,6 +500,9 @@ img {
 	gap: 20px;
 	justify-content: center;
 	align-items: center;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
    }
 
   .pictures__image:nth-child(1) {
