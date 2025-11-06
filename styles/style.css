@@ -118,11 +118,12 @@
 
 .header__theme-menu-button:focus {
 	outline: none;
+	border-bottom: 1px solid var(--color-link);
 }
 
 .header__theme-menu-button:focus-visible {
 	outline: none;
-	border-bottom: 1px solid var(--accent-color);
+	border-bottom: 1px solid var(--color-link);
 }
 
 .header__title {
@@ -267,7 +268,7 @@
 
 .section__title {
 	font-family: var(--font-family, monospace);
-	color: var(--accent-color);
+	color: var(--color-title);
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 23.4px;
@@ -281,12 +282,12 @@
 
 .content__link:hover {
 	text-shadow: 2px 2px 0 var(--accent-color);
-	border-bottom: 1px solid var(--color-link);
+	border-bottom: 1px solid var(--color-subtitle);
 	cursor: pointer;
 }
 
 .content__link:focus {
-	outline: none;
+	border: 1px solid var(--color-subtitle);
 }
 
 .content__link:focus-visible {
@@ -294,7 +295,7 @@
 	text-shadow: 2px 2px 0 var(--accent-color);
 	padding-inline-start: 3px;
 	padding-inline-end: 4px;
-	border: 1px solid var(--color-link);
+	border: 1px solid var(--color-subtitle);
 	cursor: pointer;
 }
 

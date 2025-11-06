@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --accent-color: rgba(255, 141, 203);
+  	--accent-color: rgba(255, 141, 203);
 	--color-header: rgba(255, 194, 230);
 	--color-content: rgba(53, 52, 48);
 	--color-title: rgba(53, 52, 48);
@@ -38,15 +38,17 @@
 
 @media (prefers-color-scheme: light) {
 	:root {
-		--accent-color: rgba(255, 0, 112);
-		--accent-text: rgba(0, 0, 40);
-		--color-header: rgba(219, 0, 255);
-		--color-content: rgba(0, 0, 40);
-		--color-subtitle: rgba(241, 178, 206);
-		--color-rectengle: rgba(255, 0, 112);
+		--accent-color: rgba(255, 141, 203);
+		--accent-text: rgba(53, 52, 48);
+		--color-header: rgba(255, 194, 230);
+		--color-content: rgba(53, 52, 48);
+		--color-title: rgba(53, 52, 48);
+		--color-link: rgba(53, 52, 48);
+		--color-subtitle: rgba(53, 52, 48);
+		--button-hover: rgba(50, 49, 45, 0.4);
 		--font-family: IBM Plex mono;
-		--background-image-black: url(../images/cover-image-dark.png);
-		--background-color-fallback: #000937;
+		--background-image-black: url(../images/cover-image-light.png);
+		--background-color-fallback: #fff1f7;
 	}
 }
 
