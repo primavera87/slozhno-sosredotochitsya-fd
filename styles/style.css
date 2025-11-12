@@ -103,7 +103,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: center;
 }
 
@@ -113,12 +113,7 @@
 }
 
 .header__theme-menu-button:hover {
-	border: 1px solid var(--button-hover);
-}
-
-.header__theme-menu-button:focus {
-	outline: none;
-	border-bottom: 1px solid var(--color-link);
+border-bottom: 1px solid var(--color-link);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -235,10 +230,9 @@
 	color: var(--color-content);
 	font-family: IBM Plex Mono;
 	font-weight: 700;
-	font-style: Bold;
 	font-size: 18px;
 	line-height: 23.4px;
-	letter-spacing: 0%;
+	letter-spacing: 0;
 }
 
 .consideration__item-subtitle {
@@ -426,7 +420,7 @@ img {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 23.4px;
-	letter-spacing: 0%;
+	letter-spacing: 0;
   }
 
   .consideration__title {
