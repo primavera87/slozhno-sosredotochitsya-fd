@@ -19,6 +19,9 @@
 	--font-family: IBM Plex mono;
 	--background-image-black: url(../images/cover-image-light.png);
 	--background-color-fallback: #fff1f7;
+ 	--border-link: rgba(53, 52, 48, 0.4);
+  	--border-default: #353430;
+
 }
 
 @media (prefers-color-scheme: light) {

@@ -3,15 +3,16 @@
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   margin: 0 auto;
+		background-color: var(--background-color-fallback);
+
+}
+
+.header {
 	background-image: var(--background-image-black);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
 	background-color: var(--background-color-fallback);
-}
-
-.header {
 	color: var(--accent-color, #ff0070);
 	font-family: var(--font-family, monospace);
 	font-size: 18px;
@@ -92,33 +93,37 @@
 }
 
 .header__theme-menu-button {
-	background-color: transparent;
-	text-transform: lowercase;
-	padding-inline-start: 13px;
-	padding-inline-end: 13px;
-	padding-block-end: 5px;
-	padding-block-start: 3px;
-	border: 0;
-    color: var(--color-title);
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    letter-spacing: 0;
-    text-align: center;
+  background-color: transparent;
+  text-transform: lowercase;
+  padding-inline-start: 13px;
+  padding-inline-end: 13px;
+  padding-block-end: 5px;
+  padding-block-start: 3px;
+  border: 1px solid transparent;
+  color: var(--color-title);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-align: center;
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
-	pointer-events: none;
-	border: 1px solid var(--color-title);
+  pointer-events: none;
+  border: 1px solid var(--border-default);
 }
 
 .header__theme-menu-button:hover {
-border-bottom: 1px solid var(--color-link);
+  border: 1px solid var(--border-link);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
-	outline: none;
-	border-bottom: 1px solid var(--color-link);
+  border-bottom: 1px solid var(--color-link);
 }
 
 .header__title {
@@ -181,6 +186,7 @@ border-bottom: 1px solid var(--color-link);
 	line-height: 23.4px;
 	padding-inline-start: 10px;
 	padding-inline-end: 10px;
+	background-color: var(--background-color-fallback);
 }
 
 .content__grid {
@@ -323,6 +329,7 @@ img {
     display: grid;
     margin-block-start: 40px;
     padding: 10px;
+	background-color: var(--background-color-fallback);
   }
 
   .footer__title {

@@ -20,7 +20,9 @@
 	--button-hover: #FF007066;
 	--font-family: IBM Plex mono;
 	--background-image-black: url(../images/cover-image-dark.png);
-	--background-color-fallback: #000937;
+	--background-color-fallback: #000128;
+   	--border-link: rgba(255, 0, 112, 0.4);
+  	--border-default: #FF0070;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,6 +37,6 @@
 	--button-hover: #FF007066;
 	--font-family: IBM Plex mono;
 	--background-image-black: url(../images/cover-image-dark.png);
-	--background-color-fallback: #000937;
+	--background-color-fallback: #000128;
 	}
 }
