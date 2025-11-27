@@ -17,10 +17,5 @@
 	--background-color-fallback: #000128;
   --border-link: rgba(255, 0, 112, 0.4);
   --border-default: #FF0070;
-}
-
-@media (width >= 768px) {
-  :root {
-    --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
+  --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
