@@ -391,24 +391,19 @@ img {
   .concentration {
     padding-block-start: 50px;
     gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     padding-inline-start: 10px;
     padding-inline-end: 10px;
   }
 
   .concentration__list {
     gap: 20px;
-    padding-inline-end: 20px;
     margin-block-start: 17px;
   }
 
   .concentration__title {
     width: 236px;
     margin-block-start: 20px;
-  }
-
-  .concentration__item-subtitle {
-    min-width: 472px;
   }
 
   .consideration {
@@ -588,10 +583,6 @@ img {
     margin-block-start: 10px;
   }
 
-  .concentration__item-subtitle {
-    min-width: 649px;
-  }
-
   .consideration__title {
     width: 260px;
   }
@@ -610,7 +601,7 @@ img {
   }
 
   .concentration-advice {
-    padding-block-start: 80px;
+    padding-block-start: 70px;
   }
 
   .concentration-advice__title {
